@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Onest:100,200,300,400,500,600,700,800,900);
+
 html {
   box-sizing: border-box;
 }
@@ -22,4 +24,66 @@ button {
   padding: 0;
   border: 0;
   cursor: pointer;
+}
+
+body {
+  font-family: 'Onest', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* -----HEADER-----  */
+
+.container {
+  max-width: 1840px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  padding-top: 50px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.meniu {
+  margin-left: 160px;
+  margin-right: auto;
+}
+
+.meniu__list {
+  display: flex;
+  gap: 40px;
+}
+
+.meniu__lang {
+  margin-right: 105px;
+  display: flex;
+  gap: 8px;
+}
+
+.header__btn {
+  display: flex;
+  flex-direction: column;
+  width: 48px;
+  gap: 8px;
+}
+
+.header__btn span {
+  background-color: #fff;
+  height: 2px;
+}
+
+.top {
+  background-image: url('../images/top-bg.jpg');
+  height: 100vh;
 }
