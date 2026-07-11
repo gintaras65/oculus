@@ -33,7 +33,7 @@
             <ul class="meniu__lang">
               <li class="meniu__lang-item"><a class="meniu__lang-link" href="#">Lt</a> /</li>
               <li class="meniu__lang-item">
-                <a class="meniu__lang-link" href="#">En</a>
+                <a class="meniu__lang-link--activ" href="#">En</a>
               </li>
             </ul>
             <button class="header__btn">
@@ -43,8 +43,14 @@
           </div>
         </div>
       </header>
-      
+
       <section class="top">
+        <div class="video-bg">
+          <video>
+            <source src="images/video.webm" type="video/webm" />
+            <source src="images/video.mp4" type="video/mp4" />
+          </video>
+        </div>
         <div class="container">
           <div class="top__inner">
             <div class="top__content">
@@ -77,13 +83,23 @@
                 <button class="top__explore-btn">Explore</button>
                 <div class="top__explore-box top__box">
                   <canvas id="canvas" width="320" height="320"></canvas>
+                  <div class="top__box-item">
+                    <img src="images/oculus-img.png" alt="" />
+                    <button class="top__plus top__plus--one">
+                      <span class="top__plus-decor"> + </span>
+                      <span class="top__plus-text"> Immersive 3D Audio </span>
+                    </button>
+                    <button class="top__plus top__plus--two">
+                      <span class="top__plus-decor"> + </span>
+                      <span class="top__plus-text"> Dual RGB Camera </span>
+                    </button>
+                  </div>
                 </div>
               </top>
             </div>
           </div>
         </div>
       </section>
-
     </div>
 
     <script src="js/main.js"></script>
