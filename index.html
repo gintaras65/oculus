@@ -10,75 +10,81 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <a class="logo" href="#">
-            <img src="images/logo.svg" alt="Oculus" />
-          </a>
-          <nav class="meniu">
-            <ul class="meniu__list">
-              <li class="meniu__item">
-                <a class="meniu__link" href="#">Apps and Games</a>
-              </li>
-              <li class="meniu__item">
-                <a class="meniu__link" href="#">Meta Quest</a>
-              </li>
-              <li class="meniu__item">
-                <a class="meniu__link" href="#">Support</a>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a class="logo" href="#">
+              <img src="images/logo.svg" alt="Oculus" />
+            </a>
+            <nav class="meniu">
+              <ul class="meniu__list">
+                <li class="meniu__item">
+                  <a class="meniu__link" href="#">Apps and Games</a>
+                </li>
+                <li class="meniu__item">
+                  <a class="meniu__link" href="#">Meta Quest</a>
+                </li>
+                <li class="meniu__item">
+                  <a class="meniu__link" href="#">Support</a>
+                </li>
+              </ul>
+            </nav>
+            <ul class="meniu__lang">
+              <li class="meniu__lang-item"><a class="meniu__lang-link" href="#">Lt</a> /</li>
+              <li class="meniu__lang-item">
+                <a class="meniu__lang-link" href="#">En</a>
               </li>
             </ul>
-          </nav>
-          <ul class="meniu__lang">
-            <li class="meniu__lang-item"><a class="meniu__lang-link" href="#">Lt</a> /</li>
-            <li class="meniu__lang-item">
-              <a class="meniu__lang-link" href="#">En</a>
-            </li>
-          </ul>
-          <button class="header__btn">
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-      </div>
-    </header>
-    <section class="top">
-      <div class="container">
-        <div class="top__inner">
-          <div class="top__content">
-            <h1 class="top__title">
-              Oculus
-              <span>Meta 3</span>
-            </h1>
-            <p class="top__slogan">Epic gaming just got bigger</p>
-            <p class="top__text">
-              Experience gaming, fitness and entertainment, including your favorite apps, like Facebook, Instagram and
-              WhatsApp—all within headset.
-            </p>
-          </div>
-          <div class="top__info">
-            <dl class="top__info-list">
-              <div>
-                <dt>120 Hz</dt>
-                <dd>Frame Rate</dd>
-              </div>
-              <div>
-                <dt>110 °</dt>
-                <dd>Viewing Angle</dd>
-              </div>
-              <div>
-                <dt>12</dt>
-                <dd>Months Warranty</dd>
-              </div>
-            </dl>
-            <top class="top-explore">
-              <button class="top__explore-btn">Explore</button>
-              <div class="top__explore-box top__box"></div>
-            </top>
+            <button class="header__btn">
+              <span></span>
+              <span></span>
+            </button>
           </div>
         </div>
-      </div>
-    </section>
+      </header>
+      
+      <section class="top">
+        <div class="container">
+          <div class="top__inner">
+            <div class="top__content">
+              <h1 class="top__title">
+                Oculus
+                <span>Meta 3</span>
+              </h1>
+              <p class="top__slogan">Epic gaming just got bigger</p>
+              <p class="top__text">
+                Experience gaming, fitness and entertainment, including your favorite apps, like Facebook, Instagram and
+                WhatsApp—all within headset.
+              </p>
+            </div>
+            <div class="top__info">
+              <dl class="top__info-list">
+                <div>
+                  <dt>120 Hz</dt>
+                  <dd>Frame Rate</dd>
+                </div>
+                <div>
+                  <dt>110 °</dt>
+                  <dd>Viewing Angle</dd>
+                </div>
+                <div>
+                  <dt>12</dt>
+                  <dd>Months Warranty</dd>
+                </div>
+              </dl>
+              <top class="top-explore">
+                <button class="top__explore-btn">Explore</button>
+                <div class="top__explore-box top__box">
+                  <canvas id="canvas" width="320" height="320"></canvas>
+                </div>
+              </top>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
 
     <script src="js/main.js"></script>
   </body>

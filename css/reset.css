@@ -19,6 +19,43 @@ time, mark, audio, video {
     background:transparent;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+li {
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
 body {
     line-height:1;
 }
